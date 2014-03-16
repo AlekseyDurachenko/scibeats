@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/action-about-qt.png</file>
+        <file>icons/action-exit.png</file>
+        <file>icons/action-save-as.png</file>
+        <file>icons/action-playback-loop.png</file>
+        <file>icons/action-playback-pause.png</file>
+        <file>icons/action-playback-playall.png</file>
+        <file>icons/action-playback-start.png</file>
+        <file>icons/action-playback-stop.png</file>
+        <file>icons/action-playback-backward.png</file>
+        <file>icons/action-playback-forward.png</file>
+        <file>icons/scibeats.png</file>
+        <file>icons/action-configure.png</file>
+        <file>icons/action-properties.png</file>
+        <file>icons/action-save-selection-as.png</file>
+    </qresource>
+</RCC>
