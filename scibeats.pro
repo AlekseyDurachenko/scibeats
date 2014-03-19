@@ -143,6 +143,11 @@ contains(QT, testlib) {
 
 }
 
+win32 {
+    CONFIG += embed_manifest_exe
+    RC_FILE = scibeats.rc
+}
+
 # debug
 build_pass:CONFIG(debug, debug|release) {
     TARGET      = $$join(TARGET,,,d)
@@ -163,6 +168,9 @@ build_pass:CONFIG(debug, debug|release) {
 # release
 build_pass:CONFIG(release, debug|release) {
     win32 {
+        CONFIG -= console 
+        LIBS += -lportaudio -L$$PWD/libs/libmseed -lmseed -lsamplerate -lsndfile-1
+        DEFINES += "G_VERSION=\"\\\"$$system('sh -c $$PWD/get_version.sh')\\\"\""
     }
 
     unix {
