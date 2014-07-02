@@ -118,7 +118,7 @@ void CQueryItem::execute()
     queryUrl.addQueryItem("maxmagnitude", QString::number(m_maxMagnitude, 'f', 1));
     queryUrl.addQueryItem("starttime", m_startDateTime.toString("yyyy-MM-ddTHH:mm:ss"));
     queryUrl.addQueryItem("endtime", m_endDateTime.toString("yyyy-MM-ddTHH:mm:ss"));
-    queryUrl.addQueryItem("offset", QString::number(m_offset));
+    //queryUrl.addQueryItem("offset", QString::number(m_offset));
     if (m_limit > 0) queryUrl.addQueryItem("limit", QString::number(m_limit));
 
     // threre should be log output
