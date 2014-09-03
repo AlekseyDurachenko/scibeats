@@ -8,14 +8,12 @@ The scientific sound downloader
 Compiling
 ---------
 
-    cd libs
-    ./download_and_compile.sh
-    cd ..
+    git clone https://github.com/AlekseyDurachenko/scibeats.git scibeats
+    cd ./scibeats
+    git submodule update --init --recursive
     qmake
-    make -j 3
-    # starting:
+    make -j3
     ./bin/scibeats
-
 
 3rd libraries:
 --------------
