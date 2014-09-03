@@ -1,0 +1,9 @@
+[submodule "libs/libmseed"]
+	path = libs/libmseed
+	url = https://github.com/AlekseyDurachenko/libmseed.git
+[submodule "libs/qtsampleengine"]
+	path = libs/qtsampleengine
+	url = https://github.com/AlekseyDurachenko/QtSampleEngine.git
+[submodule "libs/qtminiseed"]
+	path = libs/qtminiseed
+	url = https://github.com/AlekseyDurachenko/QtMiniSEED.git

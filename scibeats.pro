@@ -26,11 +26,11 @@ RCC_DIR         = build/release_rcc
 
 include($$PWD/libs/qtsampleengine/qtsampleengine.pri)
 include($$PWD/libs/qtminiseed/qtminiseed.pri)
+include($$PWD/libs/libmseed/libmseed.pri)
 
 DEFINES        +=                                           \
 
 INCLUDEPATH    +=                                           \
-    $$PWD/libs/libmseed                                     \
 
 INCLUDEPATH    +=                                           \
     src                                                     \
@@ -160,7 +160,7 @@ build_pass:CONFIG(debug, debug|release) {
     }
 
     unix {
-        LIBS += -lportaudio -L$$PWD/libs/libmseed -lmseed -lsamplerate -lsndfile
+        LIBS += -lportaudio -lsamplerate -lsndfile
         DEFINES += "G_VERSION=\"\\\"$$system($$PWD/get_version.sh)\\\"\""
     }
 }
@@ -169,12 +169,12 @@ build_pass:CONFIG(debug, debug|release) {
 build_pass:CONFIG(release, debug|release) {
     win32 {
         CONFIG -= console 
-        LIBS += -lportaudio -L$$PWD/libs/libmseed -lmseed -lsamplerate -lsndfile-1
+        LIBS += -lportaudio -lsamplerate -lsndfile-1
         DEFINES += "G_VERSION=\"\\\"$$system('sh -c $$PWD/get_version.sh')\\\"\""
     }
 
     unix {
-        LIBS += -lportaudio -L$$PWD/libs/libmseed -lmseed -lsamplerate -lsndfile
+        LIBS += -lportaudio -lsamplerate -lsndfile
         DEFINES += "G_VERSION=\"\\\"$$system($$PWD/get_version.sh)\\\"\""
     }
 }
