@@ -8,12 +8,14 @@ The scientific sound downloader
 Compiling
 ---------
 
-    git clone https://github.com/AlekseyDurachenko/scibeats.git scibeats
-    cd ./scibeats
-    git submodule update --init --recursive
-    qmake
-    make -j3
-    ./bin/scibeats
+```bash
+git clone https://github.com/AlekseyDurachenko/scibeats.git scibeats
+cd ./scibeats
+git submodule update --init --recursive
+qmake
+make -j3
+./bin/scibeats
+```
 
 3rd libraries:
 --------------
