@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/tests">
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_1.xml</file>
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_2.xml</file>
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_3.xml</file>
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_4.xml</file>
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_5.xml</file>
+        <file>test_plugin_soundprovider_fdsnws_parameters_test_6.xml</file>
+    </qresource>
+</RCC>

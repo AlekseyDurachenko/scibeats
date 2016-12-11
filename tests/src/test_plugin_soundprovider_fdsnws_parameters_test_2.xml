@@ -1,0 +1,22 @@
+<!DOCTYPE SciBeats-1.0>
+<SciBeats>
+    <SoundProvider>fdsnws</SoundProvider>
+    <Parameters>
+        <Url>https://service.iris.edu/fdsnws/dataselect/1/query</Url>
+        <Network>AN</Network>
+        <Station>ANMO</Station>
+        <Location>00</Location>
+        <Channel>BHZ</Channel>
+        <StartTime>2010-02-27T06:30:00</StartTime>
+        <EndTime>2010-22-27T10:30:00</EndTime>
+        <Tags>
+            <Title>title</Title>
+            <Copyright>copyright</Copyright>
+            <Software>software</Software>
+            <Artist>artist</Artist>
+            <Comment>comment</Comment>
+            <Date>date</Date>
+            <Genre>genre</Genre>
+        </Tags>
+    </Parameters>
+</SciBeats>

@@ -12,14 +12,27 @@
 
 # Qt-es
 
+/.qmake.cache
+/.qmake.stash
 *.pro.user
 *.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
 moc_*.cpp
 qrc_*.cpp
-Makefile
-*-build-*
-bin
+ui_*.h
 Makefile*
-build
-*.deb
-deploy_deb
+*-build-*
+
+# QtCreator
+
+*.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+bin/
+build/
+translations/*.qm
+debian

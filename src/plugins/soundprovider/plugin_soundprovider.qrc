@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugin/soundprovider">
+        <file>xsd.xml</file>
+    </qresource>
+</RCC>

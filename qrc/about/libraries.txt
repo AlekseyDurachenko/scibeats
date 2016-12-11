@@ -1,9 +1,0 @@
-3rd libraries:
-* Qt - http://qt-project.org/
-* libmseed - http://www.iris.edu/dms/nodes/dmc/software/downloads/libmseed/
-* libportaudio - http://www.portaudio.com/
-* libsndfile - http://www.mega-nerd.com/libsndfile/
-* libsamplerate - http://www.mega-nerd.com/SRC/
-
-Icons:
-* http://openiconlibrary.sourceforge.net/

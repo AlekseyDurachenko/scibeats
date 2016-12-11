@@ -1,0 +1,9 @@
+<!DOCTYPE SciBeats-1.0>
+<SciBeats>
+    <SoundProvider>fdsnws</SoundProvider>
+    <Parameters>
+        <a></a>
+        <b></b>
+        <c></c>
+    </Parameters>
+</SciBeats>

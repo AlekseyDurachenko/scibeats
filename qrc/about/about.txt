@@ -1,3 +1,0 @@
-scibeats - The Scientific Beats downloader.
-
-Homepage: https://github.com/AlekseyDurachenko/scibeats

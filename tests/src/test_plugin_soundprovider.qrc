@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/tests">
+        <file>test_plugin_soundprovider_factory_findid_test_1.xml</file>
+        <file>test_plugin_soundprovider_factory_findid_test_2.xml</file>
+        <file>test_plugin_soundprovider_factory_findid_test_3.xml</file>
+        <file>test_plugin_soundprovider_factory_findid_test_4.xml</file>
+    </qresource>
+</RCC>
